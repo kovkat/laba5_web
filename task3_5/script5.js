@@ -16,7 +16,7 @@ function applyDiscount(fruits) {
 
     // Виводимо кожний об'єкт фрукта із зниженими цінами у консоль
     discountedFruits.forEach(fruit => {
-        console.log(`Назва: ${fruit.name}, Ціна зі знижкою: ${fruit.price}`);
+        console.log(`Назва: ${fruit.name}, Ціна зі знижкою: ${fruit.price}, ID: ${fruit.id}`);
     });
 }
 
